@@ -78,6 +78,9 @@ export const TRANSLATIONS = {
         'category.V':               'Veteranen',
         'category.SV':              'Seniorveteranen',
         'category.tooltip':         '{name} (Alter {age})',
+        'about.line1':              'Diese Software ist kostenlos und Open Source – entwickelt für die Schweizer Schützenvereine.',
+        'about.line2':              'Mithelfen, Fehler melden oder Ideen einbringen:',
+        'about.linkLabel':          'Projekt auf GitHub',
     },
     fr: {
         'tab.participants':         'Participants',
@@ -131,6 +134,9 @@ export const TRANSLATIONS = {
         'category.V':               'Vétérans',
         'category.SV':              'Super-vétérans',
         'category.tooltip':         '{name} (âge {age})',
+        'about.line1':              'Ce logiciel est gratuit et open source – développé pour la Société de Tir suisse.',
+        'about.line2':              'Contribuer, signaler un bug ou proposer une idée :',
+        'about.linkLabel':          'Projet sur GitHub',
     },
 };
 

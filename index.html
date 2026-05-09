@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Standblatt Generator</title>
+    <title>Standbüro</title>
     <link rel="manifest" href="manifest.webmanifest">
     <link rel="icon" type="image/svg+xml" href="icon.svg">
     <meta name="theme-color" content="#2563eb">
@@ -133,6 +133,12 @@
             <input type="file" id="import-csv-input" hidden accept=".csv,text/csv" onchange="CsvIO.import(this)">
             <button class="btn-danger-ghost clear-all" onclick="Backup.clearAll()" data-i18n="btn.clearAll">Clear all data</button>
         </div>
+
+        <p class="settings-about">
+            <span data-i18n="about.line1">This software is free and open source.</span>
+            <span data-i18n="about.line2">Contribute, report bugs or share ideas:</span>
+            <a href="https://github.com/schiesssport/range-office" target="_blank" rel="noopener" data-i18n="about.linkLabel">Project on GitHub</a>
+        </p>
     </div>
 </div>
 

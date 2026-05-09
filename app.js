@@ -1,5 +1,5 @@
 // =============================================================================
-// Standblatt Generator — DOM/storage layer.
+// Standbüro — DOM/storage layer.
 // Pure logic lives in core.js (no DOM, unit-tested via tests.js).
 // =============================================================================
 
@@ -669,7 +669,7 @@ class Backup {
             participants: JSON.parse(localStorage.getItem('participants') || '[]'),
             language: Translations.getLanguage(),
         };
-        triggerDownload('standblatt-backup.json', new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' }));
+        triggerDownload('standbüro-backup.json', new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' }));
     }
 
     static import(input) {

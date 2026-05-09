@@ -393,6 +393,20 @@ tr.empty-row .row-actions { visibility: hidden; }
 
 .settings-footer .clear-all { margin-left: auto; }
 
+.settings-about {
+    margin: 28px 0 0;
+    padding-top: 18px;
+    border-top: 1px solid var(--border);
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.6;
+}
+.settings-about a {
+    color: var(--primary);
+    text-decoration: none;
+}
+.settings-about a:hover { text-decoration: underline; }
+
 /* -- Print preview & label layout ------------------------------------------ */
 
 #print-container { display: none; }

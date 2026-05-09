@@ -1,6 +1,6 @@
 {
-  "name": "Standblatt Generator",
-  "short_name": "Standblatt",
+  "name": "Standbüro",
+  "short_name": "Standbüro",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
